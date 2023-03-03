@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.question{
+  display: inline-block;
+  background-color: rgb(245, 245, 245);
+}
+.options{
+  padding : 10px 0px;
+}
+.options > div{
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+.SelectedAnswere{
+  text-align: right;
+  margin-right: 3vw;
+}
